@@ -1,5 +1,5 @@
-# Use deluan/navidrome base image
-FROM deluan/navidrome:latest
+# Use navidrome/navidrome base image
+FROM navidrome/navidrome:latest
 
 # Install necessary utilities for adding users/groups
 USER root
